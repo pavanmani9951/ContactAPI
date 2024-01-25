@@ -16,8 +16,8 @@ namespace ContactAPI.Controllers
     //};
 
         // while we creating separate folder for the list to store
-        // the items it would be reflected in the httpget
-        // otherwise it won't reflect
+        // the items it would be reflected (it will show) in the httpget
+        // otherwise it won't reflect..
         [HttpGet]
         public ActionResult<IEnumerable<Contact>> GetContacts()
         {
